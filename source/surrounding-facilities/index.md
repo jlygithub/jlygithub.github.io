@@ -7,7 +7,7 @@ top_img: /surrounding-facilities/top_img.jpg
 {% gallery %}
 ![station](/surrounding-facilities/station.jpg)
 ![washing_machine](/surrounding-facilities/washing_machine.jpg)
-![suppermarket](/surrounding-facilities/suppermarket.jpg)
+![supermarket](/surrounding-facilities/supermarket.jpg)
 ![store](/surrounding-facilities/store.jpg)
 ![pharmacy](/surrounding-facilities/pharmacy.jpg)
 {% endgallery %}
