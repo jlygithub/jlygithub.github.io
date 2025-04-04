@@ -21,6 +21,12 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
+  主页:     /                         || fa-solid fa-house
+  房间介绍: /room-introduction/       || fa-solid fa-bed
+  车辆服务: /vehicle-service/         || fa-solid fa-car
+  周边设施: /surrounding-facilities/  || fa-solid fa-cart-shopping 
+  周边景点: /nearby-attractions/      || fa-solid fa-mountain-sun
+  交通情况: /traffic-status/         || fa-solid fa-traffic-light
 
 # --------------------------------------
 # Code Blocks Settings
@@ -55,7 +61,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -65,7 +71,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /img/index_top_img.jpg
 
 # The banner image of archive page
 archive_img:
@@ -109,8 +115,8 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: 'Page Not Found'
+  enable: true
+  subtitle: '404 Not Found'
   background: /img/error-page.png
 
 post_meta:
@@ -147,7 +153,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -160,7 +166,7 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
-  source: false
+  source: 3
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
 
@@ -360,9 +366,9 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: '简'
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -370,7 +376,7 @@ translate:
   # The text of the button when the language is Simplified Chinese
   msgToTraditionalChinese: '繁'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '简'
 
 # Read Mode
 readmode: true
