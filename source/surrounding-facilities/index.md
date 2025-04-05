@@ -6,9 +6,10 @@ top_img: /surrounding-facilities/top_img.jpg
 
 {% gallery %}
 ![station](/surrounding-facilities/station.jpg)
-![washing_machine](/surrounding-facilities/washing_machine.jpg)
+![washing_machine](/surrounding-facilities/cleaner.jpg)
 ![supermarket](/surrounding-facilities/supermarket.jpg)
 ![store](/surrounding-facilities/store.jpg)
 ![pharmacy](/surrounding-facilities/pharmacy.jpg)
+![bakery](/surrounding-facilities/bakery.jpg)
 {% endgallery %}
 

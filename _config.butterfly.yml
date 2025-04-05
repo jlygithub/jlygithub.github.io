@@ -26,7 +26,7 @@ menu:
   车辆服务: /vehicle-service/         || fa-solid fa-car
   周边设施: /surrounding-facilities/  || fa-solid fa-cart-shopping 
   周边景点: /nearby-attractions/      || fa-solid fa-mountain-sun
-  交通情况: /traffic-status/         || fa-solid fa-traffic-light
+  交通情况: /traffic-status/          || fa-solid fa-traffic-light
 
 # --------------------------------------
 # Code Blocks Settings
@@ -149,7 +149,7 @@ post_meta:
 # The position of site info, eg: 300px/300em/300rem/10%
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem
-index_top_img_height:
+index_top_img_height: 300px
 
 # The subtitle on homepage
 subtitle:
@@ -178,7 +178,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 6
 
 # Display the article introduction on homepage
 # 1: description
@@ -204,7 +204,7 @@ toc:
   scroll_percent: true
 
 post_copyright:
-  enable: true
+  enable: false
   decode: false
   author_href:
   license: CC BY-NC-SA 4.0
@@ -275,7 +275,7 @@ footer:
 # --------------------------------------
 
 aside:
-  enable: true
+  enable: false
   hide: false
   # Show the button to hide the aside in bottom right button
   button: true
