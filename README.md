@@ -1,5 +1,7 @@
 # CoCo民宿网站
 > 图片来自: [pixabay](https://pixabay.com/)
+地址：〒930-0133 富山県富山市呉羽町１７６８－５
+Address：930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture
 
 ## 导航菜单
 1. 主页             /
