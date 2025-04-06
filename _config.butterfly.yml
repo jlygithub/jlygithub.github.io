@@ -27,6 +27,9 @@ menu:
   周边设施: /surrounding-facilities/  || fa-solid fa-cart-shopping 
   周边景点: /nearby-attractions/      || fa-solid fa-mountain-sun
   交通情况: /traffic-status/          || fa-solid fa-traffic-light
+  # 语言:
+  #   中文:     /                       || fa-fw fas fa-c
+  #   English:  /en/                    || fa-fw fas fa-e
 
 # --------------------------------------
 # Code Blocks Settings
@@ -139,6 +142,8 @@ post_meta:
     categories: true
     tags: true
     label: true
+    date:
+      enable: false
 
 # --------------------------------------
 # Index page settings
@@ -178,7 +183,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 6
+index_layout: 4
 
 # Display the article introduction on homepage
 # 1: description
@@ -262,12 +267,12 @@ noticeOutdate:
 footer:
   nav:
   owner:
-    enable: true
+    enable: false
     since: 2025
   # Copyright of theme and framework
   copyright:
-    enable: true
-    version: true
+    enable: false
+    version: false
   custom_text:
 
 # --------------------------------------
@@ -366,7 +371,7 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: '简'
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -1040,6 +1045,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/style.css">
   bottom:
     # - <script src="xxxx"></script>
 
