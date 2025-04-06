@@ -1,5 +1,6 @@
 .post-meta-date,
 .content,
+.pagination,
 .framework-info {
   display: none !important;
 }
