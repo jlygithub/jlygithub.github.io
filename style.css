@@ -1,0 +1,9 @@
+.post-meta-date,
+.pagination,
+.framework-info {
+  display: none !important;
+}
+.iconfont.icon-xiaohongshu {
+  /* font-size: 20px;
+  color: red; */
+}
