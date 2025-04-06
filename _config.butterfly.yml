@@ -55,9 +55,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-  fab fa-tiktok: https://www.douyin.com/ || Tiktok || '#FFFFFF'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || "#000000"
+  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe
 
 # --------------------------------------
 # Image Settings
@@ -108,7 +106,7 @@ cover:
   # Disable the cover or not
   index_enable: true
   aside_enable: true
-  archives_enable: true
+  archives_enable: false
   # When cover is not set, the default cover is displayed
   default_cover:
     # - xxx.jpg
@@ -203,7 +201,7 @@ index_post_content:
 # --------------------------------------
 
 toc:
-  post: true
+  post: false
   page: false
   number: true
   expand: false
@@ -270,20 +268,22 @@ noticeOutdate:
 footer:
   nav:
   owner:
-    enable: false
-    since: 2025
+    enable: true
+    since: 2019
   # Copyright of theme and framework
   copyright:
     enable: false
     version: false
   custom_text:
+    "地址：〒930-0133 富山県富山市呉羽町1768-5 <br>
+    Address: 930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture"
 
 # --------------------------------------
 # Aside Settings
 # --------------------------------------
 
 aside:
-  enable: false
+  enable: true
   hide: false
   # Show the button to hide the aside in bottom right button
   button: true
@@ -299,12 +299,17 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      icon: iconfont icon-xiaohongshu1
+      text: 关注我
+      link: https://www.xiaohongshu.com/user/profile/57e0ae8b50c4b4310ef5a977?xhsshare=CopyLink&appuid=57e0ae8b50c4b4310ef5a977&apptime=1743943093&share_id=806da0f1e72b40bf9eb50f4ad78f90ee&wechatWid=e4c61b1f26a6aadb9a154e40e132b17d&wechatOrigin=menu
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: |
+      <div style="display:flex; justify-content:space-around; flex-wrap:wrap">
+        <div style="margin:10px">
+          <img src="/img/小红书二维码.png" style="width:140px">
+        </div>
+      </div>
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -337,7 +342,7 @@ aside:
     order: 1
     sort_order:
   card_archives:
-    enable: true
+    enable: false
     # Type: monthly / yearly
     type: monthly
     # Eg: YYYY年MM月
@@ -356,7 +361,7 @@ aside:
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
-    enable: true
+    enable: false
     post_count: true
     last_push_date: true
     sort_order:
@@ -1049,6 +1054,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/style.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4882645_xgwywyk7c1.css">
   bottom:
     # - <script src="xxxx"></script>
 
