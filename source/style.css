@@ -5,5 +5,19 @@
 }
 .iconfont.icon-xiaohongshu1 {
   font-size: 14px;
-  /* color: rgb(242, 80, 104); */
+}
+
+
+.card-announcement .item-headline > span {
+  display: none;
+}
+
+.card-announcement .item-headline::after {
+  content: "联系我们" !important;
+  margin-left: 5px;
+}
+
+#footer {
+  font-size: large;
+  font-weight: bold;
 }

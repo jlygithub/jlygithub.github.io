@@ -14,7 +14,7 @@ nav:
   logo:
   display_title: true
   # Whether to fix navigation bar
-  fixed: false
+  fixed: true
 
 menu:
   # Home: / || fas fa-home
@@ -96,7 +96,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: true
+footer_img: false
 
 # Website Background
 # Can set it to color or image url
@@ -184,7 +184,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 4
+index_layout: 3
 
 # Display the article introduction on homepage
 # 1: description
@@ -307,8 +307,20 @@ aside:
     content: |
       <div style="display:flex; justify-content:space-around; flex-wrap:wrap">
         <div style="margin:10px">
+          <img src="/img/微信.png" style="width:140px">
+        </div>
+        <div style="margin:10px">
           <img src="/img/小红书二维码.png" style="width:140px">
         </div>
+        <div style="margin:10px">
+          <img src="/img/微信视频号.png" style="width:140px">
+        </div>
+      </div>
+      <div style="display:flex; justify-content:space-around; flex-wrap:wrap">
+        
+      </div>
+      <div style="display:flex; justify-content:space-around; flex-wrap:wrap">
+
       </div>
   card_recent_post:
     enable: true
@@ -528,7 +540,7 @@ share:
   # Share.js
   # https://github.com/overtrue/share.js
   sharejs:
-    sites: facebook,twitter,wechat,weibo,qq
+    sites: wechat,weibo,qq
 
   # AddToAny
   # https://www.addtoany.com/
@@ -866,7 +878,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
