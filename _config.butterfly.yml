@@ -27,7 +27,7 @@ menu:
   周边设施: /周边设施/       || fa-solid fa-cart-shopping 
   周边景点: /周边景点/       || fa-solid fa-mountain-sun
   交通情况: /交通情况/       || fa-solid fa-traffic-light
-  语言:
+  语言 || fas fa-language:
     中文:  /               || fa-fw fas fa-c
     日文:  /jp/            || fa-fw fas fa-j
 
