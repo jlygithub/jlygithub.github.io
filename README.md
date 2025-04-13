@@ -37,3 +37,6 @@ Address：930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture
 ## 交通情况
 - 国内直飞：从日本各地东京大阪名古屋
 - 电车、开车
+
+## 多语言支持参考方案
+https://github.com/jerryc127/butterfly.js.org/tree/main
