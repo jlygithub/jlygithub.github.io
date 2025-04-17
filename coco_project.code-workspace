@@ -4,5 +4,7 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.fontFamily": "'Maple Mono Normal NF CN', 'Courier New', monospace"
+	}
 }

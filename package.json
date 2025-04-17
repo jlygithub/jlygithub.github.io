@@ -6,7 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "jp": "hexo clean && hexo g && hexo g --config _config-jp.yml -f && hexo s"
   },
   "hexo": {
     "version": "7.3.0"
@@ -25,5 +26,12 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.3.5",
     "hexo-theme-landscape": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-html-minifier-terser": "^7.1.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-terser": "^2.1.0"
   }
 }

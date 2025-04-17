@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 可可民宿
+title: 可可民宿（日语）
 subtitle: "Coco Guesthouse"
 description: ""
 keywords:
 author: Coco Guesthouse 
-language: zh-CN
+language: ja
 timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.meiwas.com
-root: /
+url: http://www.meiwas.com/jp
+root: /jp/
 # permalink: :year/:month/:day/:title/
 permalink: :title/
 permalink_defaults:
@@ -23,8 +23,8 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: source
-public_dir: public
+source_dir: source-jp
+public_dir: public-jp
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -93,8 +93,8 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 # include:
 # exclude:
-ignore:
-  - source-jp/
+# ignore:
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
