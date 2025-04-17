@@ -40,3 +40,12 @@ Address：930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture
 
 ## 多语言支持参考方案
 https://github.com/jerryc127/butterfly.js.org/tree/main
+
+
+运行完脚本build.bat之后，修改下面的html(public/jp/index.html):
+```html
+<a class="site-page child" target="_blank" rel="noopener" href="http://localhost:4000/"><i class="fa-fw fa-fw fas fa-c"></i> <span>中文</span></a>
+
+<a class="site-page child" target="_self" rel="noopener" href="http://localhost:4000/"><i class="fa-fw fa-fw fas fa-c"></i> <span>中文</span></a>
+```
+如果是正式版，则将`http://localhost:4000/` 改成 `http://www.meiwas.com`
