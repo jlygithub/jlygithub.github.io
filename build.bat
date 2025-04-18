@@ -1,4 +1,5 @@
 @echo off
+call hexo clean
 echo 备份原始配置文件并切换为日文配置
 ren _config.butterfly.yml config2.yml
 ren _config.butterfly-jp.yml _config.butterfly.yml
@@ -8,6 +9,7 @@ call hexo clean && call hexo g --config="_config-jp.yml"
 
 
 echo 恢复原始配置并生成默认内容
+move /Y _config.butterfly.yml _config.butterfly-jp.yml
 move /Y config2.yml _config.butterfly.yml
 call hexo clean && call hexo g
 
