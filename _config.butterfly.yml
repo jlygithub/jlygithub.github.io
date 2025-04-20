@@ -21,15 +21,15 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  主页:     /                || fa-solid fa-house
+  主页: /                             || fa-solid fa-house
   房间介绍: /room-introduction/       || fa-solid fa-bed
-  车辆服务: /车辆服务/       || fa-solid fa-car
-  周边设施: /周边设施/       || fa-solid fa-cart-shopping 
-  周边景点: /周边景点/       || fa-solid fa-mountain-sun
-  交通情况: /交通情况/       || fa-solid fa-traffic-light
+  车辆服务: /vehicle-service/         || fa-solid fa-car
+  周边设施: /nearby-attractions/      || fa-solid fa-cart-shopping 
+  周边景点: /surrounding-facilities/  || fa-solid fa-mountain-sun
+  交通情况: /traffic-status/          || fa-solid fa-traffic-light
   语言 || fas fa-language:
-    中文:  /               || fa-fw fas fa-c
-    日文:  /jp/            || fa-fw fas fa-j
+    中文: /                           || fa-fw fas fa-c
+    日文: /jp                         || fa-fw fas fa-j
 
 # --------------------------------------
 # Code Blocks Settings
@@ -119,7 +119,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: '404 Not Found'
+  subtitle: "404 Not Found"
   background: /img/error-page.png
 
 post_meta:
@@ -174,7 +174,6 @@ subtitle:
   source: 3
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -274,8 +273,7 @@ footer:
   copyright:
     enable: false
     version: false
-  custom_text:
-    "地址：〒930-0133 富山県富山市呉羽町1768-5 <br>
+  custom_text: "地址：〒930-0133 富山県富山市呉羽町1768-5 <br>
     Address: 930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture"
 
 # --------------------------------------
@@ -369,7 +367,7 @@ aside:
     # The title shows the series name
     series_title: false
     # Order by title or date
-    orderBy: 'date'
+    orderBy: "date"
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
@@ -393,15 +391,15 @@ rightside_bottom:
 translate:
   enable: true
   # The text of a button
-  default: '简'
+  default: "简"
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '简'
+  msgToSimplifiedChinese: "简"
 
 # Read Mode
 readmode: true
@@ -886,7 +884,7 @@ canvas_fluttering_ribbon:
 canvas_nest:
   enable: false
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
-  color: '0,0,255'
+  color: "0,0,255"
   # The opacity of line (0~1)
   opacity: 0.7
   # The z-index property of the background
@@ -935,7 +933,7 @@ lightbox: medium_zoom
 series:
   enable: false
   # Order by title or date
-  orderBy: 'title'
+  orderBy: "title"
   # Sort of order. 1, asc for ascending; -1, desc for descending
   order: 1
   number: true
@@ -965,16 +963,16 @@ chartjs:
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
   fontColor:
-    light: 'rgba(0, 0, 0, 0.8)'
-    dark: 'rgba(255, 255, 255, 0.8)'
+    light: "rgba(0, 0, 0, 0.8)"
+    dark: "rgba(255, 255, 255, 0.8)"
   # General border color for the chart
   borderColor:
-    light: 'rgba(0, 0, 0, 0.1)'
-    dark: 'rgba(255, 255, 255, 0.2)'
+    light: "rgba(0, 0, 0, 0.1)"
+    dark: "rgba(255, 255, 255, 0.2)"
   # Background color for scale labels on radar and polar area charts
   scale_ticks_backdropColor:
-    light: 'transparent'
-    dark: 'transparent'
+    light: "transparent"
+    dark: "transparent"
 
 # Note - Bootstrap Callout
 note:
@@ -1013,8 +1011,8 @@ snackbar:
   enable: false
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: '#49b1f5'
-  bg_dark: '#1f1f1f'
+  bg_light: "#49b1f5"
+  bg_dark: "#1f1f1f"
 
 # Instant.page
 # https://instant.page/

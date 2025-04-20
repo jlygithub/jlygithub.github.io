@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 可可民宿（日语）
+title: ココ民宿
 subtitle: "Coco Guesthouse"
 description: ""
 keywords:
 author: Coco Guesthouse 
 language: ja
-timezone: "Asia/Shanghai"
+timezone: "Asia/Tokyo"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
