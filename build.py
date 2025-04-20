@@ -19,18 +19,23 @@ subprocess.run(['hexo', 'g'], shell=True, check=True)
 
 print('移动日文生成内容到子目录')
 shutil.move('public-jp', 'public/jp')
+shutil.move('public/jp/style-jp.css', 'public')
 
 print('运行gulp任务')
 subprocess.run('gulp', shell=True, check=True)
 
 # Python替换字符串，防止跳回主页时打开新界面
-host = 'http://localhost:4000/'
+print('修改中日文切换跳转URL')
+local_host = 'http://localhost:4000/'
+remote_host = local_host                                # local test
+# remote_host = 'https://jlygithub.github.io/'            # githubio
+# remote_host_jp = 'http://www.meiwas.com'                # meiwas
 
 with open("public/jp/index.html", "r", encoding="utf-8") as f:
     content = f.read()
     content = content.replace(
-        f'class="site-page child" target="_blank" rel="noopener" href="{host}',
-        f'class="site-page child" target="_self" rel="noopener" href="{host}',
+        f'class="site-page child" target="_blank" rel="noopener" href="{local_host}',
+        f'class="site-page child" target="_self" rel="noopener" href="{remote_host}',
     )
 
 with open("public/jp/index.html", "w", encoding="utf-8") as f:

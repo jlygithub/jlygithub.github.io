@@ -21,15 +21,15 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  主页: /                             || fa-solid fa-house
-  房间介绍: /room-introduction/       || fa-solid fa-bed
-  车辆服务: /vehicle-service/         || fa-solid fa-car
-  周边设施: /nearby-attractions/      || fa-solid fa-cart-shopping 
-  周边景点: /surrounding-facilities/  || fa-solid fa-mountain-sun
-  交通情况: /traffic-status/          || fa-solid fa-traffic-light
-  语言 || fas fa-language:
-    中文: http://localhost:4000/      || fa-fw fas fa-c
-    日文: /                           || fa-fw fas fa-j
+  トップページ: /                         || fa-solid fa-house
+  客室紹介: /room-introduction/           || fa-solid fa-bed
+  車両サービス: /vehicle-service/         || fa-solid fa-car
+  周辺施設: /nearby-attractions/          || fa-solid fa-cart-shopping 
+  おすすめ観光: /surrounding-facilities/  || fa-solid fa-mountain-sun
+  交通のご案内: /traffic-status/          || fa-solid fa-traffic-light
+  言語 || fas fa-language:
+    中国語: http://localhost:4000/        || fa-fw fas fa-c
+    日本語: /                             || fa-fw fas fa-j
 
 # --------------------------------------
 # Code Blocks Settings
@@ -298,7 +298,7 @@ aside:
     button:
       enable: true
       icon: iconfont icon-xiaohongshu1
-      text: 关注我
+      text: ​​注目してね
       link: https://www.xiaohongshu.com/user/profile/57e0ae8b50c4b4310ef5a977?xhsshare=CopyLink&appuid=57e0ae8b50c4b4310ef5a977&apptime=1743943093&share_id=806da0f1e72b40bf9eb50f4ad78f90ee&wechatWid=e4c61b1f26a6aadb9a154e40e132b17d&wechatOrigin=menu
   card_announcement:
     enable: true
@@ -1063,7 +1063,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/style.css">
+    - <link rel="stylesheet" href="/style-jp.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4882645_xgwywyk7c1.css">
   bottom:
     # - <script src="xxxx"></script>
