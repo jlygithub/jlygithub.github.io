@@ -29,7 +29,7 @@ print('修改中日文切换跳转URL')
 local_host = 'http://localhost:4000/'
 remote_host = local_host                                # local test
 # remote_host = 'https://jlygithub.github.io/'            # githubio
-# remote_host_jp = 'http://www.meiwas.com'                # meiwas
+remote_host_jp = 'http://www.meiwas.com'                # meiwas
 
 with open("public/jp/index.html", "r", encoding="utf-8") as f:
     content = f.read()
