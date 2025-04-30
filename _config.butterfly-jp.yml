@@ -30,6 +30,7 @@ menu:
   言語 || fas fa-language:
     中国語: http://localhost:4000/        || fa-fw fas fa-c
     日本語: /                             || fa-fw fas fa-j
+    英語: http://localhost:4000/en        || fa-fw fas fa-e
 
 # --------------------------------------
 # Code Blocks Settings
