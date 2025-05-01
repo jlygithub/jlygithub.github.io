@@ -6,17 +6,21 @@ cover: /surrounding-facilities/top_img.jpg
 order: 3
 ---
 
-## 以民宿为中心，步行 5 分钟内覆盖全方位生活圈
+## 交通：日本地铁交通
+![station](/surrounding-facilities/station.jpg)
 
-- 交通： JR 富山站（含北陆新干线）、富山路面电车起点站
-  ![station](/surrounding-facilities/station.jpg)
-- 购物 ​：FamilyMart 便利店（24 小时）、唐吉诃德药妆店、Aeon 超市（8:00-22:00）
-  ![supermarket](/surrounding-facilities/supermarket.jpg)
-- 便民 ​​：自助投币洗衣房、Quick Dry 干洗店（支持当日取）
-  {% gallery %}
-  ![store](/surrounding-facilities/store.jpg)
-  ![washing_machine](/surrounding-facilities/cleaner.jpg)
-  ![pharmacy](/surrounding-facilities/pharmacy.jpg)
-  {% endgallery %}
-- 餐饮 ​​：现烤面包店「富山酵母君」、星巴克（富山站内）
-  ![bakery](/surrounding-facilities/bakery.jpg)
+## 购物：大型超市（8:00-22:00）
+![supermarket](/surrounding-facilities/supermarket.jpg)
+
+## 便民​：便利店（24 小时）、自助投币洗衣房 、药妆店
+{% gallery %}
+![store](/surrounding-facilities/store.jpg)
+![washing_machine](/surrounding-facilities/cleaner.jpg)
+![pharmacy](/surrounding-facilities/pharmacy.jpg)
+{% endgallery %}
+
+## 餐饮​​：现烤面包店、星巴克
+{% gallery %}
+![bakery](/surrounding-facilities/bakery.jpg)
+![starbucks](/surrounding-facilities/starbucks.jpg)
+{% endgallery %}

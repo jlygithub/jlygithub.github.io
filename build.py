@@ -37,9 +37,10 @@ subprocess.run('gulp', shell=True, check=True)
 # Python替换字符串，防止跳回主页时打开新界面
 print('修改中日文切换跳转URL')
 local_host = 'http://localhost:4000/'
-remote_host = local_host                                # local test
+# remote_host = local_host                                # local test
+remote_host = 'http://192.168.31.188/'                   # home test
 # remote_host = 'https://jlygithub.github.io/'            # githubio
-# remote_host_jp = 'http://www.meiwas.com'                # meiwas
+# remote_host = 'http://www.meiwas.com/'                # meiwas
 
 # 替换日文跳转URL方式
 with open("public/jp/index.html", "r", encoding="utf-8") as f:

@@ -1,22 +1,31 @@
 ---
-title: 车辆服务
+title: Vehicle Service
 date: 2025-04-05 22:46:51
 tags:
 cover: /vehicle-service/top_img.jpg
 order: 2
 ---
 
-## 免费自行车服务
+## Customized Services
+Tailored itineraries, dining, and accommodation plans. Professional team offers one-on-one planning for family tours, business trips, and personalized needs.
+![定制服务](/vehicle-service/定制服务.jpg)
 
-民宿提供 10 辆城市自行车，含儿童座椅与安全锁，凭房卡即可租赁，推荐骑行探索富山环水公园与老街巷弄。
 
-## 司导包车服务 ​
+## Bicycle Service
+Free/paid rentals with family-friendly bikes and gear mountain bikes. Includes cycling maps for coastal lanes and historic streets—ideal for self-guided exploration.
+![自行车](/vehicle-service/自行车.jpg)
 
-合作车队提供 5-9 座商务车，可选中文司机兼导游，覆盖立山黑部、白川乡等周边景点，支持按小时或全程包车定制。价格透明包含油费与高速费，需至少提前 48 小时预约。车辆详情页展示车型实拍图、保险说明及用户评价，助您安心规划行程。
-{% gallery true %}
-![bike](/vehicle-service/bike.jpg)
+## Chauffeured Tour Service
+Private vehicle with licensed guide, adjustable routes, flexible stops for photos, and in-depth cultural commentary. Perfect for small family groups.
+{% gallery %}
+![司导包车1](/vehicle-service/司导包车1.jpg)
+![司导包车2](/vehicle-service/司导包车2.jpg)
 {% endgallery %}
-{% gallery true %}
-![car_1](/vehicle-service/car_1.jpg)
-![car_2](/vehicle-service/car_2.jpg)
-{% endgallery %}
+
+## Fishing Boat Experience
+Coastal fishing activity: cast nets and harvest crabs with fishermen’s guidance. Freshly caught seafood cooked on board. Sunset voyages add rustic charm.
+![渔船](/vehicle-service/渔船.jpg)
+
+## Sightseeing Cruise
+Dual routes: historic canal cruises or bay night sails. Multilingual guides, private charters for parties/candlelit dinners, and panoramic sunroof views.
+![游览船](/vehicle-service/游览船.jpg)

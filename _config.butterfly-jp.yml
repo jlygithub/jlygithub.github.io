@@ -24,8 +24,8 @@ menu:
   トップページ: /                         || fa-solid fa-house
   客室紹介: /room-introduction/           || fa-solid fa-bed
   車両サービス: /vehicle-service/         || fa-solid fa-car
-  周辺施設: /nearby-attractions/          || fa-solid fa-cart-shopping 
-  おすすめ観光: /surrounding-facilities/  || fa-solid fa-mountain-sun
+  周辺施設: /surrounding-facilities/      || fa-solid fa-cart-shopping 
+  おすすめ観光: /nearby-attractions/      || fa-solid fa-mountain-sun
   交通のご案内: /traffic-status/          || fa-solid fa-traffic-light
   言語 || fas fa-language:
     中国語: http://localhost:4000/        || fa-fw fas fa-c

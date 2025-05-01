@@ -12,11 +12,19 @@ Address：930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture
 6. 交通情况         /traffic-status/
 
 ## 房间介绍
-目前预定八间    room_1~8.jpg
+1. 和式榻榻米8块
+2. 和式榻榻米6块
+3. 洋式双人床1.5M
+4. 洋式双人床1.8M
+5. 8畳
+6. 榻榻米休息室
 
 ## 车辆服务
-免费自行车服务  bike.jpg
-现在司导服务    car_1~2.jpg
+1. 定制服务
+2. 自行车
+3. 司导包车
+4. 渔船
+5. 游览船
 
 ## 周边设施
 车站    station.jgp
@@ -32,7 +40,6 @@ Address：930-0133 1768-5, Kurehamachi, Toyama City, Toyama Prefecture
 富山最美星巴克  3.jpg
 富山玻璃美术馆  4.jpg
 富山城天守阁    5.jpg
-> 图片来自 [大山谷](http://www.dashangu.com/)
 
 ## 交通情况
 - 国内直飞：从日本各地东京大阪名古屋

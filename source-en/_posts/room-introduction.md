@@ -1,20 +1,31 @@
 ---
-title: 房间介绍
+title: Room Introduction
 date: 2025-04-05 22:46:45
 tags:
 cover: /room-introduction/top_img.jpg
 order: 1
 ---
 
-**民宿目前开放 8 间客房，涵盖日式榻榻米、双床房及家庭套房三种类型，满足不同客群需求。每间房均配备独立卫浴、地暖系统、观景窗及品牌寝具，部分套房增设露天风吕与厨房设施。房型详情页提供 360° 实景图、尺寸规格及实时可订日期，家庭房最多可入住 4 人，适合亲子旅行。特别推荐「立山观景房」，晨起即可远眺雪山云海。所有预订含免费早餐，旺季建议提前 30 天锁定心仪房型。**
+## Japanese-style 8 Tatami Mats
+Traditional Japanese room with 8 tatami mats, natural rush grass fragrance, paired with low tables and cushions, ideal for family gatherings.
+![和式榻榻米8块](/room-introduction/和式榻榻米8块.jpg)
 
-{% gallery true %}
-![room_1](/room-introduction/1.jpg)
-![room_2](/room-introduction/2.jpg)
-![room_3](/room-introduction/3.jpg)
-![room_4](/room-introduction/4.jpg)
-![room_5](/room-introduction/5.jpg)
-![room_6](/room-introduction/6.jpg)
-![room_7](/room-introduction/7.jpg)
-![room_8](/room-introduction/8.jpg)
-{% endgallery %}
+## Japanese-style 6 Tatami Mats
+Minimalist design with 6 tatami mats, translucent wooden sliding doors, complete tea set included for a Zen-inspired experience.
+![和式榻榻米6块](/room-introduction/和式榻榻米6块.jpg)
+
+## Western-style 1.5M Double Bed
+Modern comfort with a 1.5-meter-wide plush mattress, Nordic-style bedding, reading lamps, perfect for couples’ getaways.
+![洋式双人床1.5M](/room-introduction/洋式双人床1.5M.jpg)
+
+## Western-style 1.8M Double Bed
+Luxury upgrade with a 1.8-meter-wide bed, memory foam mattress, and sheer canopy for a romantic ambiance.
+![洋式双人床1.8M](/room-introduction/洋式双人床1.8M.jpg)
+
+## 8-Tatami Mat Room
+Standard 8-tatami space (approx. 13㎡), bamboo curtain partitions, fits three futon sets, flexible for group events.
+![8畳](/room-introduction/8畳.jpg)
+
+## Tatami Lounge
+Semi-private tea space with tatami flooring and bean bags, surrounded by greenery, offering matcha and snacks self-service.
+![榻榻米休息室](/room-introduction/榻榻米休息室.jpg)
