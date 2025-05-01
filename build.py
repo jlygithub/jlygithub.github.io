@@ -2,11 +2,9 @@ import subprocess
 from pathlib import Path
 import shutil
 
+print('生成日文内容')
 Path('_config.butterfly.yml').rename('config2.yml')
 Path('_config.butterfly-jp.yml').rename('_config.butterfly.yml')
-
-print('生成日文内容')
-
 subprocess.run(['hexo', 'clean'], shell=True, check=True)
 subprocess.run(['hexo', 'g', '--config', '_config-jp.yml'], shell=True, check=True)
 
