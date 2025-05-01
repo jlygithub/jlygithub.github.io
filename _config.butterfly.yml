@@ -21,17 +21,16 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
-  トップページ: /                         || fa-solid fa-house
-  客室紹介: /room-introduction/           || fa-solid fa-bed
-  車両サービス: /vehicle-service/         || fa-solid fa-car
-  周辺施設: /surrounding-facilities/      || fa-solid fa-cart-shopping 
-  おすすめ観光: /nearby-attractions/      || fa-solid fa-mountain-sun
-  交通のご案内: /traffic-status/          || fa-solid fa-traffic-light
-  言語 || fas fa-language:
-    中国語: http://localhost:4000/        || fa-fw fas fa-c
-    日本語: /                             || fa-fw fas fa-j
-    英語: http://localhost:4000/en        || fa-fw fas fa-e
-
+  主页: /                             || fa-solid fa-house
+  房间介绍: /room-introduction/       || fa-solid fa-bed
+  车辆服务: /vehicle-service/         || fa-solid fa-car
+  周边设施: /surrounding-facilities/  || fa-solid fa-cart-shopping 
+  周边景点: /nearby-attractions/      || fa-solid fa-mountain-sun
+  交通情况: /traffic-status/          || fa-solid fa-traffic-light
+  语言 || fas fa-language:
+    中文: /                           || fa-fw fas fa-c
+    日文: /jp                         || fa-fw fas fa-j
+    英文: /en                         || fa-fw fas fa-e
 # --------------------------------------
 # Code Blocks Settings
 # --------------------------------------
