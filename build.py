@@ -38,7 +38,7 @@ subprocess.run('gulp', shell=True, check=True)
 print('修改中日文切换跳转URL')
 local_host = 'http://localhost:4000/'
 # remote_host = local_host                                # local test
-remote_host = 'http://192.168.31.188/'                   # home test
+remote_host = 'http://192.168.31.188:4000/'                   # home test
 # remote_host = 'https://jlygithub.github.io/'            # githubio
 # remote_host = 'http://www.meiwas.com/'                # meiwas
 
