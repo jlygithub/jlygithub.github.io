@@ -21,6 +21,7 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
+<<<<<<< HEAD
   主页: /                             || fa-solid fa-house
   房间介绍: /room-introduction/       || fa-solid fa-bed
   车辆服务: /vehicle-service/         || fa-solid fa-car
@@ -31,6 +32,17 @@ menu:
     中文: /                           || fa-fw fas fa-c
     日文: /jp                         || fa-fw fas fa-j
     英文: /en                         || fa-fw fas fa-e
+=======
+  トップページ: /                         || fa-solid fa-house
+  客室紹介: /room-introduction/           || fa-solid fa-bed
+  車両サービス: /vehicle-service/         || fa-solid fa-car
+  周辺施設: /nearby-attractions/          || fa-solid fa-cart-shopping 
+  おすすめ観光: /surrounding-facilities/  || fa-solid fa-mountain-sun
+  交通のご案内: /traffic-status/          || fa-solid fa-traffic-light
+  言語 || fas fa-language:
+    中国語: http://localhost:4000/        || fa-fw fas fa-c
+    日本語: /                             || fa-fw fas fa-j
+>>>>>>> f521f235b32b7c450521dcba11f051bb1d81c2e1
 
 # --------------------------------------
 # Code Blocks Settings
@@ -299,7 +311,7 @@ aside:
     button:
       enable: true
       icon: iconfont icon-xiaohongshu1
-      text: 关注我
+      text: ​​注目してね
       link: https://www.xiaohongshu.com/user/profile/57e0ae8b50c4b4310ef5a977?xhsshare=CopyLink&appuid=57e0ae8b50c4b4310ef5a977&apptime=1743943093&share_id=806da0f1e72b40bf9eb50f4ad78f90ee&wechatWid=e4c61b1f26a6aadb9a154e40e132b17d&wechatOrigin=menu
   card_announcement:
     enable: true
@@ -872,8 +884,8 @@ canvas_ribbon:
   # The opacity of ribbon (0 ~ 1)
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
-  mobile: false
+  click_to_change: true
+  mobile: true
 
 # Fluttering Ribbon
 canvas_fluttering_ribbon:
@@ -1064,7 +1076,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    - <link rel="stylesheet" href="/style.css">
+    - <link rel="stylesheet" href="/style-jp.css">
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4882645_xgwywyk7c1.css">
   bottom:
     # - <script src="xxxx"></script>

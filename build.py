@@ -40,7 +40,11 @@ local_host = 'http://localhost:4000/'
 # remote_host = local_host                                # local test
 remote_host = 'http://192.168.31.188:4000/'                   # home test
 # remote_host = 'https://jlygithub.github.io/'            # githubio
+<<<<<<< HEAD
 # remote_host = 'http://www.meiwas.com/'                # meiwas
+=======
+remote_host_jp = 'http://www.meiwas.com'                # meiwas
+>>>>>>> f521f235b32b7c450521dcba11f051bb1d81c2e1
 
 # 替换日文跳转URL方式
 with open("public/jp/index.html", "r", encoding="utf-8") as f:
