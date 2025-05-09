@@ -6,6 +6,9 @@ cover: /surrounding-facilities/top_img.jpg
 order: 3
 ---
 
+## Introduction
+The surrounding area offers comprehensive amenities for convenient urban living. With direct access to Japan's subway system, transportation connectivity is exceptional. A large supermarket fulfills daily shopping needs, complemented by 24-hour convenience stores and a drugstore. Self-service coin laundry facilities add practicality. Food options include a freshly baked artisan bakery and Starbucks for coffee breaks. This neighborhood perfectly combines essential services with lifestyle comforts, ensuring both efficiency and quality in metropolitan living.
+
 ## Transportation: Japan Subway
 ![station](/surrounding-facilities/station.jpg)
 
